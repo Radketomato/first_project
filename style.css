@@ -1,0 +1,513 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.paragraph {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.general_h3 {
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+}
+
+.general_h4 {
+  font-size: 20px;
+  line-height: 30px;
+  color: #1F3F68;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* General Header*/
+.nav_header {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 42px;
+}
+
+/* General Footer*/
+.footer_content {
+  max-width: 495px;
+}
+
+/* Page Main */
+/* Header */
+.top_main_box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  min-height: 768px;
+  background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+
+}
+
+.header_main_h1 {
+  margin-bottom: 32px;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  width: 510px;
+}
+
+.header_main_p {
+  width: 425px;
+  margin-bottom: 71px;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+.main_header_button {
+  padding: 15px 50px;
+  border: solid;
+  border-radius: 10px;
+  border-color: #5A98D0;
+  background-color: #5A98D0;
+  box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  cursor: pointer;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+
+.header_main_left {
+  flex-grow: 1;
+  padding-top: 115px;
+  background-image: url(img/illustration_main_header.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 44%;
+}
+
+/* Products */
+.products {
+  padding-top: 64px;
+}
+
+.products_h3 {
+  font-weight: 300;
+  text-align: center;
+  color: #000000;
+
+}
+
+.products_cards {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 359px;
+  padding: 44px 32px;
+  background: #FFFFFF;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+}
+
+.card_img {
+  align-self: center;
+  margin-bottom: 51px;
+}
+
+.product_card_h4 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  margin-bottom: 15px;
+}
+
+.product_card_p {
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+.card_link {
+  margin-top: 28px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5A98D0;
+  text-decoration: none;
+}
+
+/* Project */
+.project {
+  padding-bottom: 112px;
+}
+
+.project_h3 {
+  margin-bottom: 32px;
+  font-weight: 300;
+  text-align: center;
+  color: #000000;
+}
+
+.project_p {
+  margin: 0 auto 64px;
+  width: 75%;
+  text-align: center;
+  color: #222222;
+
+}
+
+.project_item {
+  position: relative;
+  flex-grow: 1;
+}
+
+.project_item_margin {
+  margin-right: 32px;
+}
+
+.project_img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project_text {
+  font-size: 32px;
+  line-height: 46px;
+  text-align: right;
+  color: #FFFFFF;
+  position: absolute;
+  top: 64px;
+  right: 64px;
+}
+
+.project_text_mini {
+  top: 32px;
+  left: 32px;
+  text-align: left;
+}
+
+.project_parent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+
+/* Footer */
+.footer {
+  background-color: #316099;
+  padding-bottom: 64px;
+}
+
+.job_invitation {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 91px;
+  padding-bottom: 96px;
+}
+
+.footer_content {
+  max-width: 495px;
+}
+
+.footer_content_h3 {
+  max-width: 341px;
+  margin-bottom: 32px;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+
+.footer_button {
+  align-self: center;
+  display: inline-block;
+  padding: 15px 80px;
+  background: #5A98D0;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+
+}
+
+.footer_contacts {
+  padding-top: 64px;
+}
+
+.main_footer_list {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+}
+
+.footer_li {
+  margin-right: 32px;
+  flex-grow: 1;
+  flex-basis: 33.3333%;
+  display: flex;
+}
+
+.li_1:before {
+  content: 'A. ';
+  display: block;
+  margin-right: 16px;
+}
+
+.li_2:before {
+  content: 'B. ';
+  display: block;
+  margin-right: 16px;
+}
+
+.li_3:before {
+  content: 'C. ';
+  display: block;
+  margin-right: 16px;
+}
+
+.footer_content_p {
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.copyright {
+  margin-top: 64px;
+  color: #FFFFFF;
+  opacity: 0.4;
+}
+
+/* Page Contacts */
+.communication {
+  display: flex;
+  justify-content: space-between;
+}
+
+.input_fields {
+  border: 1px solid #356EAD;
+  box-sizing: border-box;
+  border-radius: 10px;
+  opacity: 0.4;
+}
+
+.contacts_h2 {
+  font-weight: 500;
+  font-size: 44px;
+  text-align: center;
+}
+
+.contacts_button {
+  background: #5A98D0;
+  box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+
+  .header_main_left {
+    background-position: right 280px;
+  }
+
+  .products_cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    margin-bottom: 32px;
+  }
+
+  .job_invitation {
+    padding-left: 92px;
+    padding-right: 92px;
+    padding-top: 47px;
+    padding-bottom: 64px;
+  }
+
+  .footer_content_p {
+    max-width: 336px;
+  }
+
+  .footer_button {
+    padding: 3px 30px;
+  }
+
+  .footer_contacts {
+    padding-left: 92px;
+    padding-right: 92px;
+  }
+
+  .main_footer_list {
+    flex-direction: column;
+  }
+
+  .li_1:before {
+    margin-right: 40px;
+  }
+
+  .li_2:before {
+    margin-right: 40px;
+  }
+
+  .li_3:before {
+    margin-right: 40px;
+  }
+}
+
+
+@media (max-width: 667px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .header {
+    padding-bottom: 24px;
+    min-height: 376px;
+  }
+
+  .nav_header {
+    padding-top: 24px;
+  }
+
+  .header_main_left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: none;
+    padding-top: 36px;
+  }
+
+  .header_main_h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 12px;
+  }
+
+  .header_main_p {
+    width: 100%;
+    text-align: center;
+  }
+
+  .main_header_button {
+    padding: 0 8px;
+    font-size: 12px;
+    line-height: 26px;
+  }
+
+  .products {
+    padding-top: 48px;
+  }
+
+  .general_h3 {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .products_cards {
+    padding-top: 32px;
+  }
+
+  .project_p {
+    margin: 0 0 64px 0;
+    width: 100%;
+  }
+
+  .project_parent {
+    flex-direction: column;
+    margin-top: 16px;
+  }
+
+  .project_item_margin {
+    margin: 0;
+    margin-bottom: 16px;
+  }
+
+  .project_text {
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
+    right: 16px;
+  }
+
+  .project_text_mini {
+    left: 16px;
+  }
+
+  .job_invitation {
+    flex-direction: column;
+    text-align: center;
+    padding: 18px 0px 40px 0px;
+  }
+
+  .footer_content {
+    align-self: center;
+  }
+
+  .footer_content_h3 {
+    padding: 0 40px;
+  }
+
+  .footer_content_p {
+    margin-bottom: 40px;
+  }
+
+  .footer_button {
+    padding: 3px 18px;
+  }
+
+  .footer_contacts {
+    padding: 32px 0px 0px 0px;
+  }
+
+  .footer_li {
+    margin-bottom: 18px;
+  }
+
+  .copyright {
+    margin-top: 37px;
+    text-align: center;
+  }
+}
